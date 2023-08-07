@@ -345,6 +345,10 @@
     background-color: transparent !important;
 }
 
+ul {
+    margin-bottom: 0 !important;
+}
+
 .absolute-1 {
     position: absolute;
     top: 111px;
@@ -353,20 +357,20 @@
 
 .absolute-2 {
     position: absolute;
-    top: 395px;
-    left: 92px;
+    top: 50%;
+    left: 7%;
 }
 
 .absolute-3 {
     position: absolute;
-    bottom: 370px;
-    left: 353px;
+    bottom: 27%;
+    left: 22%;
 }
 
 .absolute-4 {
     position: absolute;
-    bottom: 194px;
-    left: 117px;
+    bottom: -1%;
+    left: 12%;
 }
 
 .absolute-5 {
