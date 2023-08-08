@@ -343,6 +343,7 @@
 .accordion-button:not(.collapsed) {
     box-shadow: none !important;
     background-color: transparent !important;
+    color: #000 !important;
 }
 
 ul {
@@ -508,9 +509,9 @@ body {
 .cont::after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -12px;
+    width: 36px;
+    height: 36px;
+    right: -19px;
     background-color: white;
     border: none;
     top: 15px;
@@ -529,36 +530,8 @@ body {
 }
 
 
-/* .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-} */
-
-
-/* .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-} */
-
-
 .right::after {
-    left: -12px;
+    left: -18px;
 }
 
 .content {
